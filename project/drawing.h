@@ -1,0 +1,10 @@
+void drawCircle(SDL_Renderer* renderer, int x, int y);
+void drawSquareBrush(SDL_Renderer* renderer, int x, int y);
+void drawCircleBrush(SDL_Renderer* renderer, int x, int y);
+void drawDiamondBrush(SDL_Renderer* renderer, int x, int y);
+void drawCircleOutline(SDL_Renderer* renderer, int centerX, int centerY);
+void drawLine(SDL_Renderer* renderer, int x, int y, int prevx, int prevy);
+void drawDiamondLine(SDL_Renderer* renderer, int x, int y, int prevx, int prevy);
+void drawSquareLine(SDL_Renderer* renderer, int x, int y, int prevx, int prevy);
+void draw_rect_outline(SDL_Renderer* renderer, int x, int y);
+void drawincompleteCircle(SDL_Renderer* renderer, int x, int y);
